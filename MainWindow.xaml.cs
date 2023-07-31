@@ -34,15 +34,6 @@ namespace AgenteJr3
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-
-
-            //NotifyIcon _notifyIcon = new NotifyIcon();
-            //_notifyIcon.Icon = new System.Drawing.Icon(@"\\10.0.150.115\d$\Projetos\AssistenteJr3\Jr3\Jr3\logo.ico"); // Substitua "path_to_icon.ico" pelo caminho do seu ícone
-            //_notifyIcon.Visible = true;
-
-            //// Oculta a janela principal
-            //MainWindow.VisibilityProperty.Equals(false);
-
         }
 
         private void ConnServer()
@@ -76,7 +67,7 @@ namespace AgenteJr3
         {
             NotifyIcon notifyIcon = new NotifyIcon();
 
-            Icon logo = new Icon(@"\\10.0.150.115\d$\Projetos\AssistenteJr3\Jr3\Jr3\logo.ico");
+            Icon logo = new Icon(@"caminho do icone");
             notifyIcon.Icon = logo;
             notifyIcon.Visible = true;
 
